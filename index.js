@@ -6,3 +6,6 @@ function firstNonRepeatChar(str){
      char = str[i];
     if(charCount[char]){
       charCount[char]++;
+       }
+    else
+      charCount[char] = 1;
