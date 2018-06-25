@@ -3,3 +3,6 @@ function firstNonRepeatChar(str){
       char, 
        charCount = {};
   for(var i =0; i<len; i++){
+     char = str[i];
+    if(charCount[char]){
+      charCount[char]++;
