@@ -9,3 +9,7 @@ function firstNonRepeatChar(str){
        }
     else
       charCount[char] = 1;
+ }
+  for (var j in charCount){
+    if (charCount[j]==1)
+       return j;
